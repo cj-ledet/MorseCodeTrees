@@ -10,19 +10,12 @@ public class Main {
         printMenu();
     }
 
-    /**
-     * Function printMenu() prints four menu options for the user to select from: display morse code
-     * values, translate a morse code file, translate a text input, or exit. printMenu() switches
-     * between various functions based on userChoice.
-     */
     public static void printMenu() {
         String userChoice;
 
-
-        System.out.println("~Welcome to the Morse Code Translator~");
         System.out.println("Select one of the following options (1-4):");
         System.out.println();
-        System.out.println("1) Display Morse Code Values");
+        System.out.println("1) Display ");
         System.out.println("2) Translate File");
         System.out.println("3) Translate Text Input");
         System.out.println("4) Exit");
